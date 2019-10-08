@@ -1,2 +1,20 @@
-# ScratchCard
-A scratch card demo.
+## 前端刮刮卡
+一个前端刮刮卡的demo，主要目的是学习相关知识点和练手。
+
+一个刮刮卡可能的配置项：
+* 底部图片
+* 涂层的样式
+    * 纯色
+    * 图片
+* 刮的画笔半径
+* 刮开的面积到百分之多少时，直接刮开全部涂层
+* 刮开全部涂层的效果
+    * 淡出
+        * 动画过度时间
+    * 直接展示
+
+### 涉及知识点
+1. canvas元素尺寸与画布
+2. canvas的globalCompositeOperation
+3. canvas的ImageData
+4. 事件的passive属性
